@@ -65,6 +65,11 @@ void Error_Handler(void);
 #define INTERNAL_LED_GREEN_GPIO_Port GPIOA
 #define INTERNAL_LED_RED_Pin GPIO_PIN_15
 #define INTERNAL_LED_RED_GPIO_Port GPIOA
+#define PWM2_TIM4_CH1_Pin GPIO_PIN_6
+#define PWM2_TIM4_CH1_GPIO_Port GPIOB
+#define PWM_1_Pin GPIO_PIN_7
+#define PWM_1_GPIO_Port GPIOB
+#define PWM_1_EXTI_IRQn EXTI9_5_IRQn
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
